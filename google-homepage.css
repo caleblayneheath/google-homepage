@@ -9,21 +9,32 @@
 	text-align: center;
 }
 
-#bottom-navbar {
-	position: fixed;
-	width: 100%;
+#nav-top-left {
+	float: left;
+}
+
+#nav-top-right {
+	float: right;
+}
+
+.button:hover {
+	background-color: green;
+	box-shadow:;
+	border:;
+	color:;
+}
+
+footer {
+	position: absolute;
 	bottom: 0;
-	margin-top: 50px;
-	background-color: gray;
+	width: 100%;
+	background-color: grey;
 }
 
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
+#nav-bottom-left {
+	float: left;
+} 
 
-li {
-	display: inline;
-	padding: 0px 5px;
+#nav-bottom-right {
+	float: right;
 }
